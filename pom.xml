@@ -6,7 +6,7 @@
 
     <groupId>org.keycloak</groupId>
     <artifactId>keycloak-oidc-remote-claim-protocol-mapper</artifactId>
-    <version>23.0.0</version>
+    <version>24.0.0</version>
     <name>KeyCloak: OIDC remote claim protocol mapper</name>
     <description>KeyCloak: OIDC scope claim protocol mapper</description>
 
@@ -19,8 +19,9 @@
         <resteasy.version>3.8.0</resteasy.version>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.release>17</maven.compiler.release>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
     </properties>
 
     <dependencies>
